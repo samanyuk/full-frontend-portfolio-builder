@@ -1,12 +1,29 @@
-# React + Vite
+# Full Frontend Portfolio Builder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, dark-themed, futuristic portfolio builder built with React. Users can create professional portfolios with multiple experiences, projects, and skills, preview them live, and export clean black-and-white PDFs.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Dark and modern UI with vibrant highlights
+- Add, edit, and remove multiple work experiences and projects
+- Calendar input for job/project dates
+- Simple text input for skills
+- Live preview of the resume before download
+- Export a clean, professional PDF resume
+- Responsive design for desktop and mobile
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React 19
+- React Markdown
+- @react-pdf/renderer
+- Vite
+- CSS (custom dark-themed styles)
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/samanyuk/full-frontend-portfolio-builder.git
+
